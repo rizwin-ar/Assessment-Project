@@ -1,0 +1,97 @@
+.row-wrapper {
+    justify-content: space-between;
+    display: flex;
+
+    .signin-text {
+        font-weight: 700;
+        color: #3D3D3D;
+        font-size: 32px;
+
+        @media (min-width:0) and (max-width:768px) {
+            justify-content: center;
+            display: flex;
+            font-size: 24px;
+        }
+    }
+
+    .create-account-wrapper {
+        @media (min-width:0) and (max-width:768px) {
+            justify-content: center;
+            display: flex;
+        }
+
+        .new-user-text {
+            font-weight: 700;
+            font-size: 16px;
+            color: #3D3D3D;
+
+            .create-account-text {
+                color: #587FFF;
+                font-weight: 600;
+                font-size: 16px;
+                cursor: pointer;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .custom-input {
+        .form-control {
+            height: 48px;
+            border: 2px solid #3E3E3E;
+            box-shadow: unset !important;
+            border-radius: unset;
+        }
+
+        .form-control::placeholder {
+            color: #3E3E3E;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .form-control:focus {
+            border: 2px solid #3E3E3E;
+        }
+    }
+
+    .custom-checkbox {
+        .form-check {
+            align-items: center;
+            display: flex;
+        }
+
+        label {
+            color: #3D3D3D;
+            font-size: 16px;
+            font-weight: 600;
+        }
+
+        .form-check-input {
+            border: 2px solid black;
+            border-radius: unset !important;
+            box-shadow: unset !important;
+            height: 22px;
+            width: 22px;
+            margin-right: 15px;
+        }
+
+        .form-check-input:focus {
+            border: 2px solid black;
+        }
+    }
+
+    .signin-btn {
+        border-radius: unset !important;
+        height: 48px;
+        color: #FCFCFC;
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    .or-signin-text {
+        color: #3D3D3D;
+        font-size: 13px;
+        font-weight: 700;
+        margin: unset;
+    }
+}

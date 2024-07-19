@@ -1,0 +1,81 @@
+.country-card {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    min-height: 130px;
+    border: 2px solid #3E3E3E;
+    box-shadow: 8px 8px 0px 0px #0000001A;
+
+    @media (min-width:0) and (max-width:768px) {
+        min-height: 68px;
+    }
+
+    .flag-img {
+        margin-right: 28px;
+        width: 127px;
+    }
+
+    .country-name-region-wrapper {
+        display: flex;
+        flex-direction: column;
+
+        .country-name {
+            color: #3D3D3D;
+            font-size: 24px;
+            font-weight: 600;
+
+            @media (min-width:0) and (max-width:768px) {
+                font-size: 16px;
+            }
+        }
+
+        .country-region {
+            color: #6F6F6F;
+            font-size: 16px;
+            font-weight: 400;
+
+            @media (min-width:0) and (max-width:768px) {
+                font-size: 13px;
+            }
+        }
+    }
+}
+
+footer {
+    margin-top: 50px;
+    padding: 20px 0;
+    border-top: 1px solid #ddd;
+
+    .footer-text {
+        color: #3D3D3D;
+        font-size: 13px;
+        font-family: 700;
+    }
+}
+
+.custom-nav .nav-link {
+    color: #8B8B8B;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+}
+
+.custom-nav .nav-link.active {
+    font-weight: 700;
+    color: #3D3D3D;
+    border-bottom: 2px solid black !important;
+}
+
+.custom-nav .nav-link:hover {
+    color: #3D3D3D;
+    text-decoration: none;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+    border-color: unset !important;
+}
+
+.nav-tabs .nav-link {
+    border: unset !important;
+}
