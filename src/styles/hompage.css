@@ -1,3 +1,9 @@
+.countries-text {
+    color: #3D3D3D;
+    font-size: 24px;
+    font-weight: 700;
+}
+
 .country-card {
     align-items: center;
     display: flex;
